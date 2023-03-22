@@ -1,0 +1,29 @@
+  teleport1:
+    x: 100
+    y: 64
+    z: 200
+  teleport2:
+    x: -50
+    y: 72
+    z: 150
+  teleport3:
+    x: 300
+    y: 80
+    z: -100
+  teleport4:
+    x: -200
+    y: 96
+    z: -50
+  spawnPoint:
+    x: 10.0
+    y: 64.0
+    z: 20.0
+  gameStartPoint:
+      x: 136
+      y: 76
+      z: 54
+  map:
+      width: 136
+      height: 76
+      length: 54
+

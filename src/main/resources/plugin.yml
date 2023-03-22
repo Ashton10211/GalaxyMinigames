@@ -1,0 +1,9 @@
+name: GalaxyMinigames
+version: '${project.version}'
+main: main.Main
+api-version: 1.15
+authors: [ Ashton ]
+commands:
+  minigames:
+    description: Switch to a different minigame
+    usage: /<command> <game>
