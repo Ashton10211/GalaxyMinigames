@@ -19,7 +19,7 @@ public class CrystalDead implements Listener {
 
 	private CustomTeam customteam;
 
-	public Guardian(CrystalWarsGame crystalWarsGame, Block crystal1, CustomTeam customTeam) {
+	public CrystalDead(CrystalWarsGame crystalWarsGame, Block crystal1, CustomTeam customTeam) {
 		this.guardians = crystalWarsGame;
 		this.crystal1 = crystal1;
 		this.customteam = customTeam;
@@ -43,7 +43,6 @@ public class CrystalDead implements Listener {
 	@EventHandler
 	public void onPlayerDeath(PlayerDeathEvent event) {
 
-		Event
 
 		if(guardians.isStarted()) {
 
